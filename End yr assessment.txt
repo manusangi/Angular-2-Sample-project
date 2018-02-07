@@ -1,0 +1,138 @@
+predefined objectives: quality of deliverables
+ 
+mid yr :
+1.I have worked with InsightsC3M site RWS (wholesale team).In that wholesale Experience module worked on different pages like orders,Invoices,Suppliers,LIM,.
+2.Moreever worked on wholesale Reports like Dashboard, allocations, Order guide lines and volume exclusion.
+3.Written complex stored procedures in that temp tables and cursors are implemented.
+4.Prepared TDD for based on requirements.
+5.Involved in onsite calls taking requirements daily.
+6.Successsfully done with 100% client satisfaction.
+7.worked on DMS project in that tested lot of test scripts in test case to the sites like Marlboro, Copenhagen and My parliament site.Learnt different type of functionality done.
+8.In DMS project, Offer controller code analyzed different type of new things like Foundation framework ,Webapi ,Redis cahe and webjobs.
+9.In DMS project based on test scripts manual testing,regression testing and unit testing done through code.
+10.worked on code analysis tools and Followed all coding standards with through bug fixing.
+11.Qualitative code changes were done with in prescribed time.
+
+reviwer comments:
+Good work in RWS and DMS Testing project.
+Follow the project documents for gaining the project technical and functional knowledge, prepare understanding document and review with the lead.
+
+Derive the requirement understanding from User stories
+Should be proactive in identifying and suggesting the technical approach for the given requirement
+Adopt the culture of ownership of the deliverable's
+
+End yr :
+
+
+Till now I have worked with three projects like RWS,DMS and BOSE projects.
+1.Successfully delivered both Modules 1)Invoice and 2) Orders (wholesale experience-sprint-1,2).
+2.Worked on different modules like Suppliers,LIM, allocations,order guidelines,  Volume Exclusion and worked on related dashboard reports.
+3.Followed all coding standards through bug fixing.
+4. Acquired knowledge and prepared  TDD and other documents related to project.
+5.Involved in onsite calls taking requirements daily.
+6.Delivered project with 100 % client satisfaction.
+7.Worked on DMS project,Manual,Regression and Unit testing done by  sites like Marlboro,skoal,Copenhagen,LM,My parliament and learnt different functionality.
+8.understand the user stories and implemented the functionality in coding and tesiting.
+9.Worked on Code analysis tools like sql check list,CSS Cop,Style Cop and Jshint.
+10.Learnt different technologies like Asp.Net Core,Html,Css,Bootstrap, Foundation framework ,Angular JS ,Webapi ,Redis cache ,web jobs.
+11. Preapred POC's for related to new technologies and reviewed with lead.
+
+individual objectives: Innovation
+
+mid yr:
+1.Worked on new technologies like Foundation Framework,Html,Css,Web API,Web Jobs,Azure Web services,Redis Cache,Kendo UI controls and MVC5
+2.Worked on Documentation and requirements gathering the project and learnt development process.
+3.Worked on complex stored procedures with temp tables and cursors.
+4.Analysed high level coding in Offer controller.
+5.Tested number of sites learnt different types of testing like manual testing, Regression testing and unit testing learnt the functionality.
+
+Reviewer comments ;
+Identify the generic problem area in the project, and come up with idea to provide the best approach. Develop a POC and submit to the lead for review and then to Customer / Management for next upcoming project
+
+
+End yr:
+1.Gained knowledge and started working in new technologies like foundation CSS,Kendo UI,Asp.Net Core 1.0,Bootstrap,Angular JS.
+
+2.Developed BOSE project is new POC's with best approach using related to new technologies using Angular Js ,Bootstrap and Asp.net Core 1.0.
+Developing project based on requirements and reviewed the lead.
+3.Worked on documentation and requirements gathering for the project and learned the project development process
+4.Attended e-learning's tutorials in My learning.
+5.Attended several e-learning's to get updated with the latest technologies.
+
+operation Excellence:
+
+mid yr:
+1.Successfully done code changes like orders,Invoices,Supplier , LIM and wholesale reports  in whole sale experience.
+2.Acuquired knowledge and prepared TDD and other documents related to the project.
+3.Followed all coding standard with through bug fixing.
+4.Implemented all the standards in project development like Style-cop,JSHINT,css-cop etc to standardize the code and optimization was taken care.
+5.involved in calls with onsite team taking requirements and updates.
+6.learn the functionality thorough testing in different ways.
+7.Deliverd code on time with good customer satisfaction.
+8.Maintained good rapo with onsite coordinators to get updated with client requirements.
+
+Reviewer commenrtsL
+Good work in RWS, follow the guidelines for rest half of the year.
+1) Ensure to apply best practices for quality code
+2) Apply the Adequate unit testing and share the code review checklists
+3) Communicate regularly for any observations internally
+4) Apply Parallel-programming where ever applicable in your project
+
+End yr :
+
+1.Followed all coding standards defined at project level and delivered the product in mean time
+2.Implemented all the standards in project development like Style-cop,js-hint,css-cop etc to standardize the code and optimization was taken care.
+3.Delivered the code on time with good customer satisfaction.
+4.Working coding simultaneously doing testing also.Both are doing day yo day activities.
+4.Maintained good rapo with onsite co-coordinator's to get updated with client requirements.
+5.Got appreciation for the work done with onsite team.
+6.participated in several activities conducted by the organisation like Plantation,Tournaments etc
+
+
+
+Competency & Career Development Plan:
+mid yr :
+Participate in the release process of project
+Reviewer comments:
+
+Attend Communication skills training, and learn new technologies in my learn.
+Follow the guidelines
+1) Take initiative in conducting some knowledge sharing session on the newly learned technologies
+2) Preparing and contributing the documents/code files to KM portal.
+3) Nominate for new technical trainings and communication trainings in "mylearning" portal
+
+end yr:
+
+1.Attended several e-learning's to get updated with the latest technologies.
+2.Planning to work in different technologies and gain knowledge in different work flow process.
+3.Interested in working with new technologies like angular Js and single page applications
+
+
+Career aspirations:
+To give my best in my professional work for overall benefit and growth of the company by my level of hard work. I will show my caliber and gain some experience and also will improve my self day by day.
+
+
+Overall performance
+
+mid yr ;
+
+1.Successfully completed project deliverables as per given time lines.
+2.Maintained accuracy and completeness when worked on code development. Bugs/Issues were self-caught at an early stage.
+3.Tracking the defect sheet so there were rarely repeated issue has found. Reuse the codes so time line require to complete the work is less.
+4.Following the process when code is moving from dev to UAT to Prodction.
+5.Always discussed my leave plan well in advance with my team and client manager and got approval on the same such that work doesn't get affected.
+6.Made sure I have filled time sheet well in advance and got it approved on time form client manager so that work doesn't get affected and apply planned leaves in advance.
+
+Reviewer comments :
+
+Overall performance is found good, but communication skills has to be improved. Lot of technical and functional training's has to be undergone and apply the guidelines for rest half of the year.
+1) As Technology is important to the project  - Adopt to learn and master new applicable technologies identified for the project
+2) Be a quick learner - of the project requirements and technology
+3) Adopt the Best practices for quality code
+4) Communicate regularly for any ongoing issues internally
+5) Conduct Technology understand/sharing sessions for project peers
+6) Work on improving the communication skills
+
+
+
+

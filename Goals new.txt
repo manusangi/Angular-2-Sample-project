@@ -1,0 +1,83 @@
+Quality of deliverable:
+-----------------------
+
+1. Ensured in deploying of the units to be defect free by following the standards and taking precautions in not missing out any points within schedule.
+
+2. Ensured most of the times for proper support and resolving the issues within the scheduled time.
+
+3. Ensuring test cases cater to the functionality completely specified and making sure of missing no point out.
+
+4. Based on the requirements provided by Analysis team, we will discuss with team to know the functionality of the change for preparing test cases.
+ 
+5. All the  activities are met 100%. For daily,weekly and monthly production releases are sent with out fail. 
+   When there is a high priority enhancements, we will work to find out the solution in time.If there is any dependency 
+   with the other team's we will open a call and work together and at last after resolving the issue.
+   We will raise a Change request and sent for approvals to release to UAT and production. 
+
+6. Ensured to prepare all test cases are working fine with zero issue findings and also ensure to test the same on SIT developed by me .
+
+7. Ensured to check with TL before releasing the change
+
+
+Increase in efficiency:
+-----------------------
+
+
+1.Attended trainings which helped to gain knowledge on Business flows as per CITI standards and also attended  various soft skills trainings as well.
+
+2. Whenever a major problem arises, I use creative problem soving to look at diffent sides of an issue.
+
+3.Ensure to send the work status report to the supervisor/manager on time.
+
+4.Ensure to work efficiently to improve all through my career.
+
+5.Never missed completing the time sheet within the scheduled date.
+
+
+Operational Goals:
+------------------
+
+1.I am working on SOLAR,JADE and FDW Application support Project by using SAP Business Objects tool resolve any kind of production related issues.
+
+2.I ensured to log my efforts effectively and completing the time sheet within the scheduled date.
+
+3.I ensured to log attendance & leave logging in adrenalin.
+ 
+4.I am having a good understanding with my team-mates, plan the daily work & make the deliverables efficient & on time.
+
+5.I am dicussing with team to resolve some critical issues as per the business requirement.
+
+
+Business Goals:
+----------------
+
+
+1.I am working proactively to manage all the task and work of the project. I prioritize and plan daily tasks to ensure the flawless delivery to Customers with possibly zero defects.
+
+2.I understand my responsibility and always work smartly to resolve the issues also handle escalations very well to make the deliverables on time.
+
+3.I communicate efficiently to complete the Business request and answering the business queries with clients to provide best solutions for customer.
+
+
+Effort:
+--------
+
+
+1.When trying to resolving issues I communicated with differenct users and developers which helped me to improove my communication and presentation skills.
+
+2.We have provided the user requested details in short time as part of any investigation of an issue.
+
+3. For some DEV changes i have prepared a check list for the SIT and UAT testing as well which have been repetitive and shared to the team.These documents are helpful to the team whenever the similar issues occurred to resolve immediately with out any delay.
+
+4. We will deliver test feeds beyond SLA timelines and the test feeds will be validated before sending to downstreams.
+
+5. I report all neccessary information to all my team members with out fail.
+
+
+Descriptive comments:
+---------------------
+Being a Production Support Consultant i am doing all my duties without fail and there is lot of scope to learn in production support projects.
+I have utilized the same in learning Advanced Topics technically from other team mates which helps in my career growth.
+
+
+

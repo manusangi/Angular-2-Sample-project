@@ -1,0 +1,45 @@
+1.Delivery Maturity:(20)
+--------------------
+
+1.I always ensured to be ?aware of ongoing?, ?completed and pending ?activities?.?
+2.Resolved all requests as ?per SLA with quality of ?deliverables?.?
+3.I am sharing all important ?documents to my team that ?will help all team members ?are on the same page?.?
+4.We will share our ?thoughts to team internally ?to resolve critical issues in ?less span of time?.?
+5.I continually strive for self ?-?improvement ?encompassing technical skill ?and domain knowledge?.?
+6.Completed work assigned ?to me with intense passion?. ?Prioritized work?, ?responded ?to requests and initiated ?appropriate follow up?.?
+
+
+Tech margin(60):
+----------------
+
+1.I am working proactively to manage all the task and work of the project. I prioritize and plan daily tasks to ensure the flawless delivery to Customers with possibly zero defects.
+2.I understand my responsibility and always work smartly to resolve the issues also handle escalations very well to make the deliverables on time.
+3.communicate efficiently to complete the Business request and answering the business queries with clients to provide best solutions for customer.
+4.Ensured in loading and deploying of the units to be defect free by following the standards and taking precautions in not missing out any points within schedule.
+5.Ensured most of the times for proper support and resolving the issues within the scheduled time.
+6.Ensuring test cases cater to the functionality completely specified and making sure of missing no point out.
+7.Maintained accuracy and completeness when worked on Request/Issues were self-caught at an early stage.
+8.Whatever developments I released to UAT and/or Production, there were hardly any issues found. 
+9.No show stoppers were raised in UAT phase; hence, delivered the developments into production with zero defects/error free.
+10.We have provided the user requested details in short time as part of any investigation of an issue.
+11.In short period of time, got familiar with the project functionalities and could help my team in the potential releases.
+12.Understanding the requirements for domain and technological standards and efficiently reviewing the checklist before final changes.
+
+
+Tech Client delight(10):
+------------------------
+
+1.I understand my responsibility and always work smartly to resolve the issues also handle escalations very well to make the deliverables on time.
+2.I communicate efficiently to complete the Business request and answering the business queries with clients to provide best solutions for customer.
+3.Made sure TRS filled well in advance and got it approved on time form CITI manager.
+
+Delivery maturity(10):
+---------------------
+
+1.Successfully completed EMS training conducted by Nalanda.
+2.Successfully completed ISMS training conducted by Nalanda. 
+3.Successfully completed QMS training conducted by Nalanda.
+4.Attended ITIL training to improve knowledge on IT infrastructure
+5.Successfully completed CITI Academy training on domain concepts like Banking and Accounting conducted by Training Central.
+
+
