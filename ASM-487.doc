@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-487] Existing Consumer Passes LNDIS - Determine if Consumer is Valid for PL Using DB AV CD in Super Reg</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-487]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-487">Existing Consumer Passes LNDIS - Determine if Consumer is Valid for PL Using DB AV CD in Super Reg</a>
+            <span class="subText">
+               Created: 02/Mar/18                   &nbsp;Updated: 29/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22affectedVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22fixVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="rchatr" id="word_assignee_rchatr" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=rchatr">Radhika Chatrathi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-296639-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Developers:</b></td>
+                <td id="customfield_15019-296639-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15019-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="rchatr" id="multiuser_cf_rchatr">Radhika Chatrathi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-296639-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-296639-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-296639-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 6</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-296639-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-296639-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b></h3>
+<p>When the consumer was discovered at Lexis Nexis and Super Registration API finds the consumer on the database and is Age Verified, the process will need to determine if the consumer meets the Age Requirement for the Product Line.</p>
+
+<h3><a name="PurposeofChange"></a><b>Purpose of Change</b></h3>
+
+<p><b>As An</b>: API User<br/>
+<b>I Want to</b>: determine if a consumer meets the Age Requirement for the Product Line <br/>
+<b>So that I can</b>: allow them to continue on with the registration process or stop them from signing up.</p>
+
+<p><b>Requestor</b>: Jason Pena</p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b></h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b></h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b></h3>
+<h4><a name="DetermineifConsumerMeetsAgeRequirement"></a><b>Determine if Consumer Meets Age Requirement</b></h4>
+<h5><a name="ConsumerAV%27das18E%2FG"></a><b><ins>Consumer AV'd as 18E/G</ins></b></h5>
+<ol>
+	<li>Consumer is AV'd as 18E/G and Product Line is 18+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 18E/G and the Product Line associated to the input Website ID is set to 18+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 18E/G and Product Line is 19+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 18E/G and the Product Line associated to the input Website ID is set to 19+</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>, Consumer Message - System Error.  This function is unavailable.</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 18E/G and Product Line is 20+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 18E/G and the Product Line associated to the input Website ID is set to 20+</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>, Consumer Message - System Error.  This function is unavailable.</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 18E/G and Product Line is 21+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 18E/G and the Product Line associated to the input Website ID is set to 21+</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>, Consumer Message - System Error.  This function is unavailable.
+<h5><a name="ConsumerAV%27das19G"></a><b><ins>Consumer AV'd as 19G</ins></b></h5></li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 19G and Product Line is 18+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 19G and the Product Line associated to the input Website ID is set to 18+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 19G and Product Line is 19+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 19G and the Product Line associated to the input Website ID is set to 19+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 19G and Product Line is 20+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 19G and the Product Line associated to the input Website ID is set to 20+</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>, Consumer Message - System Error.  This function is unavailable.</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 19G and Product Line is 21+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 19G and the Product Line associated to the input Website ID is set to 21+</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>, Consumer Message - System Error.  This function is unavailable.
+<h5><a name="ConsumerAV%27das20G"></a><b><ins>Consumer AV'd as 20G</ins></b></h5></li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 20G and Product Line is 18+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 20G and the Product Line associated to the input Website ID is set to 18+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 20G and Product Line is 19+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 20G and the Product Line associated to the input Website ID is set to 19+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 20G and Product Line is 20+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 20G and the Product Line associated to the input Website ID is set to 20+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 20G and Product Line is 21+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 20G and the Product Line associated to the input Website ID is set to 21+</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>, Consumer Message - System Error.  This function is unavailable.
+<h5><a name="ConsumerAV%27das1or2"></a><b><ins>Consumer AV'd as 1 or 2</ins></b></h5></li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 1 or 2 and Product Line is 18+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 1 or 2 and the Product Line associated to the input Website ID is set to 18+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 1 or 2 and Product Line is 19+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 1 or 2 and the Product Line associated to the input Website ID is set to 19+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 1 or 2 and Product Line is 20+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 1 or 2 and the Product Line associated to the input Website ID is set to 20+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+	<li>Consumer is AV'd as 1 or 2 and Product Line is 21+ (existing consumer)
+	<ul>
+		<li><b>When</b>: the consumer is AV'd as 1 or 2 and the Product Line associated to the input Website ID is set to 21+</li>
+		<li><b>Then</b>: the process will continue on with the Opt Off Checks</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<ul>
+	<li>The point in the process where this check needs to be done is when LN Discovery Passes and the Lex ID is found on the DB and the consumer is Age Verified.</li>
+	<li>This is for an Existing Consumer at this point.</li>
+	<li>This check will need to look at the AGE_VERIFICATION_CD from the Response Object of the SFNA Transaction.
+	<ul>
+		<li>It will need to use the <font color="red">first 2 bytes</font> of the AGE_VERIFICATION_CD
+		<ul>
+			<li>If 18E/G, should use 18</li>
+			<li>If 1 or 2, should use 21</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>The Age Requirement check will need to determine the Minimum Legal Age by comparing the first 2 bytes of the AV CD and the Minimum Legal Age.
+	<ul>
+		<li>To get the Minimum Legal Age, take the input Website ID and look it up on the API_WEBSITE_LOOKUP_VALUES table.</li>
+		<li>Take the PRODUCT_LINE_CD associated to the input Website ID and look it up on the PRODUCT_LINE table.  This will give the MINIMUM_LEGAL_AGE to be used.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="StandardDesign"></a><b>Standard Design</b></h3>
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b> </h3>
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b> </h3>
+<p>Altria will be performing UAT. </p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b> </h3>
+<p>This will determine if 18+ consumers will or will not be added to the database based on Product Line.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b> </h3>
+<ul>
+	<li>API Solution Documentation</li>
+	<li>API User Guide</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-920942"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="halperc" id="word_commented_halperc" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=halperc">halperc</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">13/Mar/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-920942"><td bgcolor="#ffffff">
+            <p>I approve</p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 02 13:47:24 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-491] Insert Data into the New Fields on the API_INDIVIDUAL Temp Table for Super Registration API</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-491]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-491">Insert Data into the New Fields on the API_INDIVIDUAL Temp Table for Super Registration API</a>
+            <span class="subText">
+               Created: 22/Feb/18                   &nbsp;Updated: 30/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22affectedVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22fixVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="rchatr" id="word_assignee_rchatr" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=rchatr">Radhika Chatrathi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-294577-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-294577-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Developers:</b></td>
+                <td id="customfield_15019-294577-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15019-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="rchatr" id="multiuser_cf_rchatr">Radhika Chatrathi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-294577-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-294577-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-294577-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 6</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-294577-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-294577-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b></h3>
+<p>Upon receiving data for the new fields, it will need to be inserted into to the API_INDIVIDUAL table in the RT Database.</p>
+
+<h3><a name="PurposeofChange"></a><b>Purpose of Change</b></h3>
+<p>The change will allow the APIs to stage the Location ID a consumer was age verified for temporarily until the information can be staged to be sent to the Data Warehouse.  It will also allow the APIs to execute the proper Age Verification workflow.</p>
+
+<p><b>As An</b>: API User<br/>
+<b>I Want to</b>: insert the input data for the new fields into the API_INDIVIDUAL temp table <br/>
+<b>So that I can</b>: temporarily store the Location ID and the AV 18+ WF Flag.</p>
+
+<p><b>Requestor</b>: Jason Pena</p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b></h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b></h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b></h3>
+<ol>
+	<li>Date of Birth is 18 years old or older from the current date
+	<ul>
+		<li><b>When</b>: Date of Birth is under 18</li>
+		<li><b>Then</b>: issue Error Code and Status Message <font color="#d04437">722 - INDIVIDUAL UNDER 18</font></li>
+	</ul>
+	</li>
+	<li>Input AgeVerifiedLocationID is inserted into AGE_VERIFIED_LOCATION_ID Field
+	<ul>
+		<li><b>When</b>: the input AgeVerifiedLocationID is pouplated on input</li>
+		<li><b>Then</b>: the process will update the AGE_VERIFIED_LOCATION_ID field on the API_INDIVIDUAL table</li>
+	</ul>
+	</li>
+	<li>Input AV18WFFlag is inserted into AV_18_WF_FLAG Field
+	<ul>
+		<li><b>When</b>: the input AV18WFFlag is populated on input</li>
+		<li><b>Then</b>: the process will update the AV_18_WF_FLAG field on the API_INDIVIDUAL table</li>
+	</ul>
+	</li>
+	<li>Set AGE_VERIFIED_AGE = '18' when Input AV18WFFlag ='Y'
+	<ul>
+		<li><b>When</b>: the input AV18WFFlag = 'Y'</li>
+		<li><b>Then</b>: set the AGE_VERIFIED_AGE = '18' on the API_INDIVIDUAL table</li>
+	</ul>
+	</li>
+	<li>Set AGE_VERIFIED_AGE = '21' when Input AV18WFFlag = 'N'
+	<ul>
+		<li><b>When</b>: the input AV18WFFlag = 'N'</li>
+		<li><b>Then</b>: set the AGE_VERIFIED_AGE = '21' on the API_INDIVIDUAL table</li>
+	</ul>
+	</li>
+	<li>Set AGE_VERIFIED_AGE = '21' when Input AV18WFFlag is NULL
+	<ul>
+		<li><b>When</b>: the input AV18WFFlag is NULL</li>
+		<li><b>Then</b>: set the AGE_VERIFIED_AGE = '21' on the API_INDIVIDUAL table</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<ul>
+	<li>The existing under 21 validation will be removed (error 478).</li>
+	<li>At the point in which data is inserted into or updated on the API_INDIVIDUAL table, these new fields will need to be inserted/updated.</li>
+</ul>
+
+
+<h3><a name="StandardDesign"></a><b>Standard Design</b></h3>
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b></h3>
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b></h3>
+<p>Altria will be performing UAT.</p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b></h3>
+<p>This will allow the Location ID to be temporarily stored until the information can be staged to be sent to the Data Warehouse.  It will also allow the APIs to execute the correct Age Verification workflow.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b></h3>
+<ul>
+	<li>RT Design Document</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-896679"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="penajd" id="word_commented_penajd" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=penajd">penajd</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/Mar/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-896679"><td bgcolor="#ffffff">
+            <p>Approved</p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 02 14:25:22 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

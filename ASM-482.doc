@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-482] Update Super Reg to Verify AV18+ Workflow Exists on API_3RD_PARTY_WORKFLOW Table</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-482]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-482">Update Super Reg to Verify AV18+ Workflow Exists on API_3RD_PARTY_WORKFLOW Table</a>
+            <span class="subText">
+               Created: 22/Feb/18                   &nbsp;Updated: 27/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22affectedVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22fixVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="rchatr" id="word_assignee_rchatr" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=rchatr">Radhika Chatrathi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-294538-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-294538-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Developers:</b></td>
+                <td id="customfield_15019-294538-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15019-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="rchatr" id="multiuser_cf_rchatr">Radhika Chatrathi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-294538-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-294538-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-294538-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 6</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-294538-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-294538-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b></h3>
+<p>The validation to determine whether or not an Age Verification workflow exists for the input website in Super Registration API will need to be modified to include the new AV18+ workflow.</p>
+
+<h3><a name="PurposeofChange"></a><b>Purpose of Change</b></h3>
+<p>Update the LN AV workflow validation to include the AV18+ workflow for the input website on the API Configuration table.</p>
+
+<p><b>As An</b>:  API User<br/>
+<b>I Want to</b>: support multiple LN Workflows from a configuration table<br/>
+<b>So that I can</b>: support the gradual transition of websites to new workflows if needed.</p>
+
+<p><b>Requestor</b>: Jason Pena</p>
+
+<h3><a name="APIVersioning"></a><b>API Versioning</b></h3>
+<p><font color="#d04437">No New Version is needed.</font></p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b></h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b></h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b></h3>
+
+<h5><a name="AgeVerificationWorkflowValidationAfterValidatingaRowexistsforinputWebsite%28PriortoexecutingLNAgeVerification%29"></a><b>Age Verification Workflow Validation - After Validating a Row exists for input Website (Prior to executing LN Age Verification)</b></h5>
+<ol>
+	<li>Validate AV_18_WF field is populated when API_INDIVIDUAL.AV_18_WF_FLAG = 'Y'
+	<ul>
+		<li><b>When</b>: the AV_18_WF field is not populated when AV_18_WF_FLAG = 'Y'</li>
+		<li><b>Then</b>: issue Error Code and Message 9997 - SETUP ERROR, Consumer Message: System Error. This function is unavailable.
+		<ul>
+			<li><b><ins>Note</ins></b>:  Record on the AUD_API_REQUEST_STATUS_XREF error code 1385 - WORKFLOW FOR INPUT WEBSITE DOES NOT EXIST, Consumer Message: System Error. This function is unavailable.  At this point the Super Registration API is complete.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Validate AV_WF field is populated when API_INDIVIDUAL.AV_18_WF_FLAG = 'N'
+	<ul>
+		<li><b>When</b>: the AV_WF field is not populated when AV_18_WF_FLAG = 'N'</li>
+		<li><b>Then</b>: issue Error Code and Message 9997 - SETUP ERROR, Consumer Message: System Error. This function is unavailable.
+		<ul>
+			<li><b><ins>Note</ins></b>:  Record on the AUD_API_REQUEST_STATUS_XREF error code 1385 - WORKFLOW FOR INPUT WEBSITE DOES NOT EXIST, Consumer Message: System Error. This function is unavailable.  At this point the Super Registration API is complete.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Validate AV_WF field is populated when API_INDIVIDUAL.AV_18_WF_FLAG is NULL
+	<ul>
+		<li><b>When</b>: the AV_WF field is not populated when AV_18_WF_FLAG is NULL</li>
+		<li><b>Then</b>: issue Error Code and Message 9997 - SETUP ERROR, Consumer Message: System Error. This function is unavailable.
+		<ul>
+			<li><b><ins>Note</ins></b>:  Record on the AUD_API_REQUEST_STATUS_XREF error code 1385 - WORKFLOW FOR INPUT WEBSITE DOES NOT EXIST, Consumer Message: System Error. This function is unavailable.  At this point the Super Registration API is complete.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<ul>
+	<li>When executing the Age Verification SOAP Transaction, the workflow will be retrieved from the API_3RD_PARTY_WORKFLOW configuration table based on website and AV_18_WF_FLAG.</li>
+</ul>
+
+
+<h3><a name="StandardDesign"></a><b>Standard Design</b></h3>
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b></h3>
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b></h3>
+<p>Altria will be performing UAT.</p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b></h3>
+<p>This will allow for easier support of workflow versioning at LN.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b></h3>
+<ul>
+	<li>API Solution Documentation</li>
+	<li>API User Guide</li>
+	<li>Setup Tables - By API and Responsibility</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-896681"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="penajd" id="word_commented_penajd" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=penajd">penajd</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/Mar/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-896681"><td bgcolor="#ffffff">
+            <p>Approved.</p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 02 12:44:04 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

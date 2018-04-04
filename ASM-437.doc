@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-437] Remove Existing under 21 DOB Validation from RT SOAP SFNA Transaction</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-437]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-437">Remove Existing under 21 DOB Validation from RT SOAP SFNA Transaction</a>
+            <span class="subText">
+               Created: 05/Feb/18                   &nbsp;Updated: 05/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for UAT</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="cmuppi" id="word_assignee_cmuppi" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=cmuppi">Chaitanya Muppidi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-291138-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-291138-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Developers:</b></td>
+                <td id="customfield_15019-291138-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15019-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="rchatr" id="multiuser_cf_rchatr">Radhika Chatrathi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Testers:</b></td>
+                <td id="customfield_15100-291138-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15100-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="cmuppi" id="multiuser_cf_cmuppi">Chaitanya Muppidi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-291138-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-291138-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-291138-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 4</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-291138-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-291138-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b> </h3>
+<p>The existing DOB Validation for under 21 will be removed from the Full Name Address Search RT Transaction. </p>
+
+<p><b>As An</b>: API User <br/>
+<b>I Want to</b>: no longer execute the under 21 DOB validation<br/>
+<b>So that I can</b>: allow 18+ consumers to be processed through the Full Name Address Search RT Transaction.</p>
+
+<p><b>Requestor</b>: Jason Pena </p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b> </h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b> </h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b> </h3>
+<h4><a name="DateofBirthValidations"></a><b>Date of Birth Validations</b></h4>
+<ol>
+	<li>Date of Birth is 21 years old or older from the current date
+	<ul>
+		<li><b>When</b>: Date of Birth is under 21</li>
+		<li><b>Then</b>: processing will continue</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<ul>
+	<li>Remove the existing under 21 DOB validation.</li>
+</ul>
+
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b> </h3>
+<ul>
+	<li>Test consumer who is 17</li>
+	<li>Test consumer who is 18</li>
+	<li>Test consumer who is 19</li>
+	<li>Test consumer who is 20</li>
+	<li>Test consumer who is 21</li>
+</ul>
+
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b> </h3>
+<p>Altria will be performing UAT. </p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b> </h3>
+<p>This will allow 18+ consumers to be found through Full Name Address Search.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b> </h3>
+<ul>
+	<li>RT I/O Spreadsheet</li>
+	<li>RT Solution Documentation</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-884245"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="halperc" id="word_commented_halperc" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=halperc">halperc</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">20/Feb/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-884245"><td bgcolor="#ffffff">
+            <p>I approve</p>
+        </td></tr>
+                <tr id="comment-header-884990"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="halperc" id="word_commented_halperc" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=halperc">halperc</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">21/Feb/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-884990"><td bgcolor="#ffffff">
+            <p>Just spoke to Jason, he approves</p>
+        </td></tr>
+            </table>
+Generated at Mon Mar 19 21:07:24 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

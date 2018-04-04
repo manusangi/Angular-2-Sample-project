@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-424] Calculate Age for Legal Age</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-424]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-424">Calculate Age for Legal Age</a>
+            <span class="subText">
+               Created: 07/Feb/18                   &nbsp;Updated: 28/Feb/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for UAT</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="rchatr" id="word_assignee_rchatr" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=rchatr">Radhika Chatrathi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-291604-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-291604-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-291604-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-291604-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-291604-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-291604-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b> </h3>
+<p>A new calculation will need to be created to determine a consumer's minimum age.  The minimum age will be used by APIs to determine if the consumer meets Age Requirements. </p>
+
+<p><b>As An</b>: API User <br/>
+<b>I Want to</b>: calculate a consumer's minimum age<br/>
+<b>So that I can</b>: use the age to determine if the consumer meets an Age Requirement in the calling API.</p>
+
+<p><b>Requestor</b>: Jason Pena </p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b> </h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b> </h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b> </h3>
+<ol>
+	<li>Match Type CD = 4 (Year Match)
+	<ul>
+		<li><b>When</b>: Match Type CD = 4</li>
+		<li><b>Then</b>: set Age_Verified_Age = Calculated Age*</li>
+	</ul>
+	</li>
+	<li>Match Type CD = 6 (MM/CCYY Match)
+	<ul>
+		<li><b>When</b>: Match Type CD = 6</li>
+		<li><b>Then</b>: set Age_Verified_Age = Calculated Age*</li>
+	</ul>
+	</li>
+	<li>Match Type CD = 8 (Full DOB Match)
+	<ul>
+		<li><b>When</b>: Match Type CD = 8</li>
+		<li><b>Then</b>: set Age_Verified_Age = Calculated Age*</li>
+	</ul>
+	</li>
+</ol>
+<ul>
+	<li><font color="#d04437">See Calculate Age in Design section</font></li>
+</ul>
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<h4><a name="InputFields"></a><b><ins>Input Fields</ins></b></h4>
+<p>The fields that would need to come in as input are as follows:</p>
+<ul>
+	<li>Match Type</li>
+	<li>Date of Birth</li>
+</ul>
+
+
+<h4><a name="OutputFields"></a><b><ins>Output Fields</ins></b></h4>
+<p>The field that would be sent back in output is as follows:</p>
+<ul>
+	<li>Age Verified Age</li>
+</ul>
+
+
+<h4><a name="MatchTypeDescriptions"></a><b><ins>Match Type Descriptions</ins></b></h4>
+<ul>
+	<li>The Match Type descriptions are as follows:
+	<ul>
+		<li>4 - CCYY match</li>
+		<li>6 - MM/CCYY match</li>
+		<li>8 - MM/DD/CCYY match</li>
+	</ul>
+	</li>
+	<li>When Match Type = 4, append 12/31 as MM/DD to the input YOB</li>
+	<li>When Match Type = 6, append DD = <span class="error">&#91;last day of the MM&#93;</span> to the input MM/CCYY</li>
+	<li>When Match Type = 8, use the full input DOB</li>
+</ul>
+
+
+<h4><a name="CalculateAge"></a><b><ins>Calculate Age</ins></b></h4>
+<ul>
+	<li>Once the DOB has been properly merged, the calculation will need to be as follows:
+	<ul>
+		<li>Current Date - merged DOB = Calculated Age</li>
+	</ul>
+	</li>
+	<li>If the consumer's Calculated Age is &gt;= 21, then the Calculated Age would always be 21.</li>
+</ul>
+
+
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b> </h3>
+<ul>
+	<li>Test consumer who is 17</li>
+	<li>Test consumer who is 18</li>
+	<li>Test consumer who is 19</li>
+	<li>Test consumer who is 20</li>
+	<li>Test consumer who is 21</li>
+	<li>Test consumer who is older than 21</li>
+</ul>
+
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b> </h3>
+<p>Altria will be performing UAT. </p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b> </h3>
+<p>This will allow APIs to determine if a consumer meets an Age Requirement.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b> </h3>
+<ul>
+	<li>RT Solution Documentation</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-854527"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="penajd" id="word_commented_penajd" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=penajd">penajd</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">07/Feb/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-854527"><td bgcolor="#ffffff">
+            <p>Beth- I approve this story with the updates I have made in red.</p>
+        </td></tr>
+            </table>
+Generated at Mon Mar 19 21:08:06 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

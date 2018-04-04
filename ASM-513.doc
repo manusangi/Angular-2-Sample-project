@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-513] Re-Age Verify Consumer who is AV&#39;d &lt; 21 for UQ RT Transaction</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-513]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-513">Re-Age Verify Consumer who is AV&#39;d &lt; 21 for UQ RT Transaction</a>
+            <span class="subText">
+               Created: 16/Mar/18                   &nbsp;Updated: 02/Apr/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for Test Approval</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22affectedVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22fixVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="smovva" id="word_assignee_smovva" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=smovva">SivaKumar Movva</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-300364-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-300364-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-300364-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-300364-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 6</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-300364-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-300364-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b> </h3>
+<p>A consumer who is already age verified on the Database as 18, 19 or 20 and Age Verification information is present on the input into the UQ Transaction, the consumer will be re-age verified if needed.</p>
+
+<p><b>As An</b>: API User <br/>
+<b>I Want to</b>: re-age verify a consumer who is AV'd as 18, 19 or 20 through the UQ Transaction<br/>
+<b>So that I can</b>: allow the consumer to be properly certified for a Product Line.</p>
+
+<p><b>Requestor</b>: Jason Pena </p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b> </h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b> </h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b> </h3>
+<h4><a name="UQinputcontainsAVData%3BProcessSuccessfullyGoesthroughLocationIDValidations"></a><b><ins>UQ input contains AV Data; Process Successfully Goes through Location ID Validations</ins></b></h4>
+<h5><a name="ReAgeVerifyConsumer"></a><b>Re-Age Verify Consumer</b></h5>
+<ol>
+	<li>New Calculated AV CD &gt; DB AV CD; Update AV CD
+	<ul>
+		<li><b>When</b>: the new Calculated Age Verification CD &gt; INDIVIDUAL.AGE_VERIFICATION_CD</li>
+		<li><b>Then</b>: set INDIVIDUAL.AGE_VERIFICATION_CD = new Calculated Age Verification CD</li>
+	</ul>
+	</li>
+	<li>New Calculated AV CD = DB AV CD; Continue on with Processing
+	<ul>
+		<li><b>When</b>: the new Calculated Age Verification CD = INDIVIDUAL.AGE_VERIFICATION_CD</li>
+		<li><b>Then</b>: continue on with processing
+		<ul>
+			<li><b><ins>NOTE</ins></b>: <font color="#d04437">AV information will be staged, but not updated on the INDIVIDUAL table.  This is existing functionality</font>.  If the consumer has an existing AV CD =1, the UQ process will leave the value as 1, but stage the Electronic AV information.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>New Calculated AV CD &lt; DB AV CD; Do not update AV CD
+	<ul>
+		<li><b>When</b>: the new Calculated Age Verification CD &lt; INDIVIDUAL.AGE_VERIFICATION_CD</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">760 - CANNOT LOWER AGE VERIFICATION</font>.
+<h4><a name="UQinputdoesnotcontainAVData%3BProcesswillgothroughDBAVCDchecksagainstthePRODUCTLINETable"></a><b><ins>UQ input does not contain AV Data; Process will go through DB AV CD checks against the PRODUCT_LINE Table</ins></b></h4></li>
+	</ul>
+	</li>
+	<li>Do Not Re-Age Verify; Use DB AV CD and verify minimum Legal Age against the PRODUCT_LINE Table
+	<ul>
+		<li><b>When</b>: AV data is not present on input</li>
+		<li><b>Then</b>: continue on with processing going down the path that verifies minimum Legal Age against the PRODUCT_LINE Table</li>
+	</ul>
+	</li>
+</ol>
+
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<ul>
+	<li>A calculated Age Verification CD will need to be performed before doing the comparison to the DB.
+	<ul>
+		<li>If Calculated Age = 18, set calculated Age Verification CD = 18</li>
+		<li>If Calculated Age = 19, set calculated Age Verification CD = 18</li>
+		<li>If Calculated Age = 20, set calculated Age Verification CD = 18</li>
+		<li>If Calculated Age &gt;= 21, set calculated Age Verification CD = 21</li>
+	</ul>
+	</li>
+	<li>When comparing the INDIVIDUAL.AGE_VERIFICATION_CD, the <font color="#d04437">first 2 bytes</font> should be used.
+	<ul>
+		<li>If the INDIVIDUAL.AGE_VERIFICATION_CD = 1, 2, or 4, then use 21.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h4><a name="CODETABLE"></a><b><ins>CODE_TABLE</ins></b></h4>
+<ul>
+	<li>The following row will be inserted:
+	<ul>
+		<li>Table_Name = AUD_TRANSACTION_DETAIL</li>
+		<li>Column_Name = TRANSACTION_STATUS_CD</li>
+		<li>Code_ID = 760</li>
+		<li>Code_Description = CANNOT LOWER AGE VERIFICATION</li>
+		<li>Code_Status = A</li>
+		<li>Last_Update_ID = LEGALAGE</li>
+		<li>Record_Create_Date = sysdate</li>
+		<li>Last_Rebuild_Date = sysdate</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b> </h3>
+<ul>
+	<li>Test consumer who is 17</li>
+	<li>Test consumer who is 18</li>
+	<li>Test consumer who is 19</li>
+	<li>Test consumer who is 20</li>
+	<li>Test consumer who is 21</li>
+</ul>
+
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b> </h3>
+<p>Altria will be performing UAT. </p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b> </h3>
+<p>This will allow consumers to re-age verify if they are a current AV CD of 18, 19, or 20.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b> </h3>
+<ul>
+	<li>RT Solution Documentation</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-930584"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="penajd" id="word_commented_penajd" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=penajd">penajd</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">22/Mar/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-930584"><td bgcolor="#ffffff">
+            <p>Approved.<br/>
+ Thanks,<br/>
+ Jason</p>
+
+<p> </p>
+        </td></tr>
+                <tr id="comment-header-930590"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="halperc" id="word_commented_halperc" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=halperc">halperc</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">22/Mar/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-930590"><td bgcolor="#ffffff">
+            <p>I approve</p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 02 14:31:16 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

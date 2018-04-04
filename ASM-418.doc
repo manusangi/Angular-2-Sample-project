@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-418] Update UGIID Processing for 18+ Consumers</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-418]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-418">Update UGIID Processing for 18+ Consumers</a>
+            <span class="subText">
+               Created: 05/Feb/18                   &nbsp;Updated: 01/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for UAT</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="smovva" id="word_assignee_smovva" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=smovva">SivaKumar Movva</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-290974-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-290974-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-290974-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-290974-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-290974-value" class="value" bgcolor="#ffffff" width="80%">    3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-290974-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b> </h3>
+<p>Processing of the new Fields will need to be done in order to verify the consumer meets the age requirements for the Product Line associated to the Location where the AV was collected. If the consumer meets the requirements, they will be staged to be sent to the Data Warehouse. </p>
+
+<p><b>As An</b>: API User <br/>
+<b>I Want to</b>: add processing for the new Legal Age fields to the GIID Upload RT Transaction<br/>
+<b>So that I can</b>: allow 18+ consumers to be processed.</p>
+
+<p><b>Requestor</b>: Jason Pena </p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b> </h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b> </h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b> </h3>
+<h4><a name="Processing"></a><b>Processing</b></h4>
+<h5><a name="LocationIDExistsonTable"></a><b><ins>Location ID Exists on Table</ins></b></h5>
+<ol>
+	<li>Input Age Verified Location ID exists on LOCATION_LEGAL_AGE and Consumer Meets/Exceeds Age Requirement
+	<ul>
+		<li><b>When</b>: input Age Verified Location ID exists on LOCATION_LEGAL_AGE table and input Minimum Age &gt;= LEGAL_AGE</li>
+		<li><b>Then</b>: continue on with processing</li>
+	</ul>
+	</li>
+	<li>Input Age Verified Location ID exists on LOCATION_LEGAL_AGE and Consumer does not Meet/Exceed Age Requirement
+	<ul>
+		<li><b>When</b>: input Age Verified Location ID exists on LOCATION_LEGAL_AGE table and input Minimum Age &lt; LEGAL_AGE</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>
+<h5><a name="LocationIDDoesNotExistonTable"></a><b><ins>Location ID Does Not Exist on Table</ins></b></h5></li>
+	</ul>
+	</li>
+	<li>Input Age Verified Location ID does not exist on LOCATION_LEGAL_AGE and Consumer Meets/Exceeds <b><ins><font color="#d04437">Default</font></ins></b> Age Requirement
+	<ul>
+		<li><b>When</b>: input Age Verified Location ID does not exist on LOCATION_LEGAL_AGE table and input Minimum Age &gt;= default LEGAL_AGE</li>
+		<li><b>Then</b>: continue on with processing</li>
+	</ul>
+	</li>
+	<li>Input Age Verified Location ID does not exist on LOCATION_LEGAL_AGE and Consumer does not Meet/Exceed <b><ins><font color="#d04437">Default</font></ins></b> Age Requirement
+	<ul>
+		<li><b>When</b>: input Age Verified Location ID does not exist on LOCATION_LEGAL_AGE table and input Minimum Age &lt; default LEGAL_AGE</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font>
+<h5><a name="LocationIDisNotPopulatedonInput"></a><b><ins>Location ID is Not Populated on Input</ins></b></h5></li>
+	</ul>
+	</li>
+	<li>Input Age Verified Location ID is not populated and Consumer Meets/Exceeds <b><ins><font color="#d04437">Default</font></ins></b> Age Requirement
+	<ul>
+		<li><b>When</b>: input Age Verified Location ID is not populated on input and input Minimum Age &gt;= default LEGAL_AGE</li>
+		<li><b>Then</b>: continue on with processing</li>
+	</ul>
+	</li>
+	<li>Input Age Verified Location ID is not populated and Consumer does not Meet/Exceed <b><ins><font color="#d04437">Default</font></ins></b> Age Requirement
+	<ul>
+		<li><b>When</b>: input Age Verified Location ID is not populated on input and input Minimum Age &lt; default LEGAL_AGE</li>
+		<li><b>Then</b>: issue Error Code and Message <font color="#d04437">724 - CONSUMER DOES NOT MEET AGE REQUIREMENT</font></li>
+	</ul>
+	</li>
+</ol>
+
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<ul>
+	<li>The new logic needs to be added prior to updating the Age Verification CD.</li>
+	<li>There will be a default AGE_VERIFIED_LOCATION_ID/LEGAL_AGE for each Product Line that exists in the system.
+	<ul>
+		<li>If an input Age Verified Location ID is populated, but cannot be found on the LOCATION_LEGAL_AGE table or one is not provided on input, the default Legal Age will need to be used.</li>
+		<li>To get the default LEGAL_AGE, take the input Program Number and look it up on the PROGRAM table.  This will give the PROGRAM_BRAND_CD associated to the Program Number.
+		<ul>
+			<li>Take the PROGRAM_BRAND_CD and look that up on the BRAND table (BRAND_CD = PROGRAM_BRAND_CD).  This will give the PRODUCT_LINE_CD.</li>
+			<li>Take the PRODUCT_LINE_CD and look that up on the LOCATION_LEGAL_AGE table using AGE_VERIFIED_LOCATION_ID = 'DEFAULT'.  This will give the LEGAL_AGE to be used.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h4><a name="AgeVerificationCdUpdateLogic"></a><b><ins>Age Verification Cd Update Logic</ins></b></h4>
+<ul>
+	<li>The logic where the Age Verification CD is being set when the <ins><b>Channel Share Level is '<font color="#d04437">OPCO</font>'</b> for DM (Direct Mail)</ins>, needs to be modified to be include the new GIID Age Verification codes to properly set the Age Verification CD.
+	<ul>
+		<li>If input GIID Flag = ‘Y’, set AGE_VERIFICATION_CD for the input Owner and associated OpCo based on the <font color="#d04437">input Age Verified Age value</font>.
+		<ul>
+			<li>If input Minimum Age = 18, set AGE_VERIFICATION_CD = 18G</li>
+			<li>If input Minimum Age = 19, set AGE_VERIFICATION_CD = 18G</li>
+			<li>If input Minimum Age = 20, set AGE_VERIFICATION_CD = 18G</li>
+			<li>If input Minimum Age = 21, set AGE_VERIFICATION_CD = 1</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+
+<ul>
+	<li>The logic where the Age Verification CD is being set when the <ins><b>Channel Share Level is '<font color="#d04437">IND</font>'</b> for DM (Direct Mail)</ins>, needs to be modified to be include the new GIID Age Verification codes to properly set the Age Verification CD.
+	<ul>
+		<li>If GIID Flag = ‘Y’, set AGE_VERIFICATION_CD for the input Owner and all OpCos that have a name/address for the individual based on the <font color="#d04437">input Age Verified Age value</font> and Age_Verification_Owner_CD is set to the input Owner on the transaction.
+		<ul>
+			<li>If input Minimum Age = 18, set AGE_VERIFICATION_CD = 18G</li>
+			<li>If input Minimum Age = 19, set AGE_VERIFICATION_CD = 18G</li>
+			<li>If input Minimum Age = 20, set AGE_VERIFICATION_CD = 18G</li>
+			<li>If input Minimum Age &gt;= 21, set AGE_VERIFICATION_CD = 1</li>
+		</ul>
+		</li>
+		<li>When GIID Flag = ‘U’ and AGE_VERIFICATION_CD = ‘1’ or '2' or <font color="#d04437">or '18'G' or '18E' or '19G' or '19E' or '20G' or '20E'</font>, do not update Age_Verification_CD or Age_Verification_Owner_CD</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h4><a name="QualificationLogic"></a><b><ins>Qualification Logic</ins></b></h4>
+<ul>
+	<li>The Qualification Logic will need to be modified to include the new AV CDs and to compare it to the Minimum Age on the PRODUCT_LINE table.</li>
+	<li>The code will need to look at the first two bytes of the AGE_VERIFICATION_CD.
+	<ul>
+		<li>The new codes are 18E, 18G, 19E, 19G, 20E, and 20G.</li>
+	</ul>
+	</li>
+	<li>The changes below do not reflect what the actual syntax is, just where the change needs to be made.</li>
+</ul>
+
+
+<p>If (strAVCode = "1" Or strAVCode = "2") AndAlso _<br/>
+                                    DOB &lt;&gt; Nothing AndAlso _<br/>
+                                    (strConsumerAuthCd = "Y" Or strConsumerAuthCd = "G" Or strConsumerAuthCd = "P") Then<br/>
+                                    strQualificationCd = "Y"<br/>
+End If</p>
+
+<p>If (<font color="#d04437">strAVCode = "18" or strAVCode = "19" or strAVCode = "20"</font>) AndAlso _<br/>
+                                    DOB &lt;&gt; Nothing <font color="#d04437">AndAlso strAVCode &gt;= PRODUCT_LINE.MINIMUM_LEGAL_AGE</font> AndAlso _<br/>
+                                    (strConsumerAuthCd = "Y" Or strConsumerAuthCd = "G" Or strConsumerAuthCd = "P") Then<br/>
+                                    strQualificationCd = "Y"<br/>
+End If</p>
+
+<h4><a name="PMASDSTAGING"></a><b><ins>PMASD_STAGING</ins></b></h4>
+<p>Upon staging UGIID information, the one new field will need to be staged.</p>
+<ul>
+	<li>AGE_VERIFIED_LOCATION_ID = input Age Verified Location ID</li>
+</ul>
+
+
+<h4><a name="CODETABLE"></a><b><ins>CODE_TABLE</ins></b></h4>
+<p>The following row will be inserted:</p>
+<ul>
+	<li>Table_Name = AUD_TRANSACTION_DETAIL</li>
+	<li>Column_Name = TRANSACTION_STATUS_CD</li>
+	<li>Code_ID = 724</li>
+	<li>Code_Description = CONSUMER DOES NOT MEET AGE REQUIREMENT</li>
+	<li>Code_Status = A</li>
+	<li>Last_Update_ID = LEGALAGE</li>
+	<li>Record_Create_Date = sysdate</li>
+	<li>Last_Rebuild_Date = sysdate</li>
+</ul>
+
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b> </h3>
+<ul>
+	<li>Test consumer who is 17</li>
+	<li>Test consumer who is 18</li>
+	<li>Test consumer who is 19</li>
+	<li>Test consumer who is 20</li>
+	<li>Test consumer who is 21</li>
+	<li>Test consumer who is older than 21</li>
+	<li>Test each one using a DOB that is after the Current Date (the next day)</li>
+	<li>Test each one using a  DOB that is the same as the Current Date</li>
+	<li>These same Ages need to be tested for Qualification.
+	<ul>
+		<li><del>The IQos Product Line would be an explicit certification, but not have other Product Lines systematically certified.</del></li>
+		<li><del>If other PLs are explicitly certified, then the IQos PL would be systematically certified.</del><br/>
+<b>NOTE:</b> Both the commented scenarios will be tested in the UQ. </li>
+	</ul>
+	</li>
+	<li>Qualification needs to be tested using the Age Requirement on the PRODUCT_LINE table.
+	<ul>
+		<li>If a consumer passes the validation against the LOCATION_LEGAL_AGE table, but does not meet the Age Requirement for the Product Line on the PRODUCT_LINE table, this would set the Qualification CD = 'N' stating the consumer is not Qualified.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b> </h3>
+<p>Altria will be performing UAT. </p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b> </h3>
+<p>This will allow 18+ consumers to go through GIID Upload and be added to the RT database.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b> </h3>
+<ul>
+	<li>RT I/O Spreadsheet</li>
+	<li>RT Solution Documentation</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Mon Mar 19 21:06:37 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

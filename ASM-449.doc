@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-449] Add New Fields to UQ SOAP Transaction Input Structure</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-449]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-449">Add New Fields to UQ SOAP Transaction Input Structure</a>
+            <span class="subText">
+               Created: 05/Feb/18                   &nbsp;Updated: 06/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for UAT</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="bethda" id="word_reporter_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="rchatr" id="word_assignee_rchatr" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=rchatr">Radhika Chatrathi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-291175-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira.acxiom.com/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    RE External Sprint 4 Story Approval.msg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-291175-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Developers:</b></td>
+                <td id="customfield_15019-291175-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15019-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="rchatr" id="multiuser_cf_rchatr">Radhika Chatrathi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-291175-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-291175-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-291175-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 4</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-291175-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-291175-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b></h3>
+<p>One new field, Location ID, will be added to the input of the RT Update QualificationTransaction.</p>
+
+<h3><a name="PurposeofChange"></a><b>Purpose of Change</b></h3>
+<p>To show where the consumer's AV was collected at the time AV was collected.  </p>
+
+<p><b>As An</b>: API User<br/>
+<b>I Want to</b>: collect the Location the consumer was AV'd at<br/>
+<b>So that I can</b>: store the information on the database.</p>
+
+<p><b>Requestor</b>: Jason Pena</p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b></h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b></h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b></h3>
+<p><b>When</b>: the Location ID field is added<br/>
+<b>Then</b>: the input fields will exist.</p>
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<p>The following information shows the I/O information for the existing Update Qualificaiton Transaction.</p>
+
+<ul>
+	<li><b>Request Object</b>
+	<ul>
+		<li><b>Request Data</b>
+		<ul>
+			<li>Website ID (required) - Number (4)</li>
+			<li>Vendor CD (required) - Varchar2 (5)</li>
+			<li>Vendor Data (optional)</li>
+			<li>Owner CD (optional) - Varchar2 5)</li>
+			<li>List (optional) - Varchar2 (20)</li>
+			<li>CCN (required) - Number (9)</li>
+			<li><b>Age Verification Object</b>
+			<ul>
+				<li>AgeVerifiedFlag (optional; required if AV data is present) - Varchar2 (1)</li>
+				<li>MatchType (optional; required if AV data is present) - Varchar2 (1)</li>
+				<li>AgeVerifiedType (optional; required if AV data is present) - Varchar2 (1)</li>
+				<li>UnderAgeFlag (optional) - Varchar2 (1)</li>
+				<li>MicrofilmIndexNumber (optional) - Varchar2 (15)</li>
+				<li>DocumentTypeCode (optional) - Varchar2 (2)</li>
+				<li><font color="#d04437">AgeVerifiedLocationID (optional) - Varchar2 (10)</font></li>
+			</ul>
+			</li>
+			<li>DOB (optional; required if AV data is present) - Date</li>
+			<li><b>Certification Object</b>
+			<ul>
+				<li>CertificationCode (optional; required if Smart Quiz is not present) - Varchar2 (1)</li>
+				<li>ProgramNumber (required) - Varchar2 (7)</li>
+				<li>ProgramPhase (required) - Varchar2 (4)</li>
+			</ul>
+			</li>
+			<li><b>Usage Question Array</b> (Required on Multi-Product Programs Only)
+			<ul>
+				<li>QuestionID - Number (5)</li>
+				<li>ResponseID - Number (5)</li>
+			</ul>
+			</li>
+			<li>360ViewFlag (override) (optional) - Varchar2 (1)</li>
+			<li><b>Authentication Object</b>
+			<ul>
+				<li>LexisNexisID (optional; required if AV data is present) - Varchar2 (20)</li>
+				<li>SmartQuizCd (optional; required if AV data is present) - Varchar2 (5)</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="TestingConsiderations"></a>Testing Considerations</h3>
+<p>Testing will consist of verifying the input structure.</p>
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a>Altria/Biz Partner Considerations</h3>
+<p>Altria will be performing UAT.</p>
+
+<h3><a name="BusinessValue"></a>Business Value</h3>
+<p>This will allow 18+ consumers to go through Update Qualification and be added to the RT database.</p>
+
+<h3><a name="Checklist"></a>Checklist</h3>
+<ul>
+	<li>RT I/O Spreadsheet</li>
+	<li>RT Solution Documentation</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-883383"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="bethda" id="word_commented_bethda" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=bethda">Beth Davis</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Feb/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-883383"><td bgcolor="#ffffff">
+            <p>The Location ID is no longer needed on input to determine the minimum legal age.</p>
+        </td></tr>
+                <tr id="comment-header-885896"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="nrusse" id="word_commented_nrusse" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=nrusse">Nicholas Russell</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Feb/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-885896"><td bgcolor="#ffffff">
+            <p>Approval Email in Attachments</p>
+        </td></tr>
+            </table>
+Generated at Mon Mar 19 21:07:33 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>

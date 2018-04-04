@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ASM-481] Add New Fields to Super Registration API Input Structure</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.acxiom.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ASM-481]&nbsp;<a href="https://jira.acxiom.com/browse/ASM-481">Add New Fields to Super Registration API Input Structure</a>
+            <span class="subText">
+               Created: 29/Nov/17                   &nbsp;Updated: 27/Mar/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.acxiom.com/secure/BrowseProject.jspa?id=15301">ALT Sprint Busters</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                                        <a title="DEV Current Platform - Enhancements on the Current Platform"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22component%22%3D17313%20ORDER%20BY%20priority%20ASC"
+            >DEV Current Platform</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22affectedVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="2018 05-17 May Release - May 2018 Production Release"
+                href="https://jira.acxiom.com/issues/?jql=project%3D15301%20AND%20%22fixVersion%22%3D19473%20ORDER%20BY%20priority%20ASC"
+            >2018 05-17 May Release</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="nrusse" id="word_reporter_nrusse" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=nrusse">Nicholas Russell</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="rchatr" id="word_assignee_rchatr" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=rchatr">Radhika Chatrathi</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-278818-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Architects:</b></td>
+                <td id="customfield_15018-278818-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15018-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="bethda" id="multiuser_cf_bethda">Beth Davis</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Developers:</b></td>
+                <td id="customfield_15019-278818-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15019-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="rchatr" id="multiuser_cf_rchatr">Radhika Chatrathi</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UAT Approvers:</b></td>
+                <td id="customfield_15020-278818-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15020-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="govinda" id="multiuser_cf_govinda">Anandraj Govindaraju</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Client Owner Approvers:</b></td>
+                <td id="customfield_15021-278818-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_15021-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="halperc" id="multiuser_cf_halperc">halperc</span></span>                        </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10610-278818-value" class="value" bgcolor="#ffffff" width="80%">ALT ASM 2018 Sprint 6</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10607-278818-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10611-278818-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.acxiom.com/browse/ALM-294">
+        Add functionality to allow different age restrictions based on Store or Event/Product Line/Brand Family for IQOS
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Description"></a><b>Description</b></h3>
+<p>The Input structure for Super Registration API will need to be modified to include 2 new fields, Location ID and AV 18+ WF flag fields.</p>
+
+<h3><a name="PurposeofChange"></a><b>Purpose of Change</b></h3>
+<p>This will allow the process to determine if the consumer will be able to register based on the minimum Legal Age for a Location and Product Line.  it will also tell the process which AV workflow to execute.</p>
+
+<p><b>As An</b>: API User<br/>
+<b>I Want to</b>: allow the consumer to register based on the minimum Legal Age for a Location and Product Line<br/>
+<b>So that I can</b>: allow additional consumers onto the database.</p>
+
+<p><b>Requestor</b>: Catherine Halpern</p>
+
+<h3><a name="CodeDependencies"></a><b>Code Dependencies</b></h3>
+
+<h3><a name="StoryDependencies"></a><b>Story Dependencies</b></h3>
+
+<h3><a name="AcceptanceCriteria"></a><b>Acceptance Criteria</b></h3>
+<h4><a name="Input%2FOutputStructure"></a><b><ins>Input/Output Structure</ins></b></h4>
+<ol>
+	<li>Input/Output Structure Exits
+	<ul>
+		<li><b>When</b>: the Super Registration API is called</li>
+		<li><b>Then</b>: the new input Location ID and AV18 WF Flag fields will exist
+<h4><a name="AV18WFFlagValidations%28whenpopulated%29"></a><b><ins>AV18WF Flag Validations</ins> (when populated)</b></h4></li>
+	</ul>
+	</li>
+	<li>AV18WFFlag is populated with 'Y'
+	<ul>
+		<li><b>When</b>: the AV18WFFlag = 'Y'</li>
+		<li><b>Then</b>: the process will continue on with validations</li>
+	</ul>
+	</li>
+	<li>AV18WFFlag is populated with 'N'
+	<ul>
+		<li><b>When</b>: the AV18WFFlag = 'N'</li>
+		<li><b>Then</b>: the process will continue on with validations</li>
+	</ul>
+	</li>
+	<li>AV18WFFlag is populated with a NULL value
+	<ul>
+		<li><b>When</b>: the AV18WFFlag is NULL</li>
+		<li><b>Then</b>: the process will continue on with validations</li>
+	</ul>
+	</li>
+	<li>AV18WFFlag is populated with any other value than 'Y', 'N', or NULL
+	<ul>
+		<li><b>When</b>: the AV18WFFlag = any other value than 'Y', 'N', or NULL</li>
+		<li><b>Then</b>: then issue Error Code and Message <font color="#d04437"><b>479 - INVALID AV WORKFLOW FLAG VALUE</b></font>, Consumer Message: System Error.  This function is unavailable.</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="Design"></a><b>Design</b></h3>
+<p>The following information shows all input fields for the Super Registration API.</p>
+
+<ul>
+	<li><b>Request Object</b>
+	<ul>
+		<li><b>Header</b>
+		<ul>
+			<li><b>Client Facing Data</b>
+			<ul>
+				<li>Client Token</li>
+				<li>API Version (optional)</li>
+				<li>Website ID</li>
+				<li>Vendor CD</li>
+				<li>Access Type CD</li>
+				<li>Channel Type CD</li>
+			</ul>
+			</li>
+			<li><b>Layer 7 Data</b>
+			<ul>
+				<li>Tenant Name</li>
+				<li>Tenant ID</li>
+				<li>API Key (Client Key) – passed in by Layer 7</li>
+				<li>Mode</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li><b>Body</b>
+		<ul>
+			<li>Title (optional) - Varchar2 (15)</li>
+			<li>FirstName (required) - Varchar2 (15)</li>
+			<li>MiddleName (optional) - Varchar2 (15)</li>
+			<li>LastName (required) - Varchar2 (25)</li>
+			<li>Suffix (optional) - Varchar2 (3)</li>
+			<li>AddressLine1 (required) - Varchar2 (40)</li>
+			<li>AddressLine2 (optional) - Varchar2 (40)</li>
+			<li>City (required) - Varchar2 (28)</li>
+			<li>State (required) - Varchar2 (2)</li>
+			<li>Zip (required) - Varchar2 (5)</li>
+			<li>ZipPlus4 (not used) - Varchar2 (4)</li>
+			<li>AddtionalAddressLine1 (optional) - Varchar2 (40)</li>
+			<li>AdditonalAddressLine2 (optional) - Varchar2 (40)</li>
+			<li>AdditionalCity (optional) - Varchar2 (28)</li>
+			<li>AdditionalState (optional) - Varchar2 (2)</li>
+			<li>AdditionalZipCode (optional) - Varchar2 (5)</li>
+			<li>AdditionalZipPlus4 (not used) - Varchar2 (4)</li>
+			<li>DateOfBirth (required) - Varchar2 (10)</li>
+			<li>EmailAddress (optional) - Varchar2 (120)</li>
+			<li>CertificationCd (required) - Varchar2 (1)</li>
+			<li>SurveyDataArray
+			<ul>
+				<li>SurveyQuestionID (optional) - Varchar2 (5)</li>
+				<li>SurveyResponseArray
+				<ul>
+					<li>SurveyResponseID (optional) - Varchar2 (5)</li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li>HomePhoneNumber (optional) - Varchar2 (120)</li>
+			<li>MobilePhoneNumber (optional) - Varchar2 (120)</li>
+			<li>UserId (optional) - Varchar2 (120)</li>
+			<li>Password (optional) - Varchar2 (40)</li>
+			<li>SecurityDataArray
+			<ul>
+				<li>QuestionId (optional) - Varchar2 (5)</li>
+				<li>Answer (optional) - Varchar2 (255)</li>
+			</ul>
+			</li>
+			<li>ConsumerLoyaltyId (optional) - Varchar2 (20)</li>
+			<li>SSN4 (optional) - Varchar2 (4)</li>
+			<li><font color="#d04437">AgeVerifiedLocationID (optional) - Varchar2 (10)</font></li>
+			<li><font color="#d04437">AV18WFFlag (optional) - Varchar2 (1)</font></li>
+			<li>OriginalRequestID (optional) - Varchar2 (12)</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="TestingConsiderations"></a><b>Testing Considerations</b></h3>
+<ul>
+	<li>Testing will consist of verifying the input structure.</li>
+</ul>
+
+
+<h3><a name="Altria%2FBizPartnerConsiderations"></a><b>Altria/Biz Partner Considerations</b></h3>
+<p>Altria will be performing UAT.</p>
+
+<h3><a name="BusinessValue"></a><b>Business Value</b></h3>
+<p>This will allow a consumer who is 18+ to register.</p>
+
+<h3><a name="Checklist"></a><b>Checklist</b></h3>
+<ul>
+	<li>API I/O Spreadsheet</li>
+	<li>API Solution Documentation</li>
+	<li>API User Guide</li>
+	<li>Release Notes</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-896676"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="penajd" id="word_commented_penajd" href="https://jira.acxiom.com/secure/ViewProfile.jspa?name=penajd">penajd</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/Mar/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-896676"><td bgcolor="#ffffff">
+            <p>approved.</p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 02 12:43:04 CDT 2018 by Anandraj Govindaraju using JIRA 7.2.9#72011-sha1:d6cf5f35263cb0451bff611940e6cb537ecc0956.
+
+</body>
+</html>
